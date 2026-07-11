@@ -342,7 +342,7 @@ function SignUpForm({ onSubmit }: { onSubmit: () => void }) {
           <FieldIcon>
             <User className="h-4 w-4" />
           </FieldIcon>
-          <Input placeholder="Jane Doe" className="h-11 rounded-xl pl-9" required />
+          <Input placeholder="Your Name" className="h-11 rounded-xl pl-9" required />
         </div>
       </div>
       <div className="grid grid-cols-2 gap-3">
@@ -367,9 +367,8 @@ function SignUpForm({ onSubmit }: { onSubmit: () => void }) {
             </SelectTrigger>
             <SelectContent>
               <SelectItem value="en">English</SelectItem>
-              <SelectItem value="es">Español</SelectItem>
               <SelectItem value="hi">हिन्दी</SelectItem>
-              <SelectItem value="fr">Français</SelectItem>
+              
             </SelectContent>
           </Select>
         </div>

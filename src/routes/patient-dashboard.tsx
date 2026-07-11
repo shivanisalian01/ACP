@@ -103,7 +103,7 @@ function PageHeader() {
     <header className="grid grid-cols-[minmax(0,1fr)_auto] items-start gap-4">
       <div className="min-w-0">
         <h1 className="truncate text-2xl font-bold tracking-tight text-foreground sm:text-3xl">
-          Welcome, {patientUser.greetingName} <span className="inline-block">👋</span>
+          Welcome, {patientUser.greetingName} <span className="inline-block"></span>
         </h1>
         <p className="mt-1 text-sm text-muted-foreground">
           Start your Advance Care Planning journey whenever you're ready.
